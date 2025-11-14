@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christus Natus T-Shirts – ICC</title>
+    <title>ICC Media Project – Christus Natus T-Shirts</title>
     <meta name="description" content="Order Christus Natus T-shirts online. Celebrate the birth of Jesus. Production: 28 Nov at Ishaka Community Church.">
     <link rel="stylesheet" href="styles.css">
 </head>
