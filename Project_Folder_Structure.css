@@ -1,0 +1,22 @@
+C:\xampp\htdocs\iccmediaproject\
+├── admin\
+│   ├── login.php               <-- Admin login page
+│   ├── dashboard.php           <-- Admin dashboard page
+│   ├── logout.php              <-- Ends admin session
+│   ├── db_connect.php          <-- Database connection
+│   ├── setup_admins.php        <-- Adds initial admins (run once)
+│   ├── generate_hash.php       <-- Temporary file to generate password hashes
+│   ├── edit_order.php          <-- Edit order page (coordinator only)
+│   ├── delete_order.php        <-- Delete order page (coordinator only)
+│   ├── edit_item.php           <-- Edit catalog item (coordinator only)
+│   ├── delete_item.php         <-- Delete catalog item (coordinator only)
+│   └── uploads\
+│       ├── profiles\           <-- Admin profile photos
+│       │   ├── default.jpg
+│       │   ├── tyson.jpg
+│       │   └── ...other admins
+│       └── merch\              <-- Product images (if needed)
+│           └── default.jpg
+├── assets\
+│   └── icc_logo.png            <-- ICC logo
+└── index.php                   <-- Optional landing page for T-shirt ordering

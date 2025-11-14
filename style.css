@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; margin:0; background-color:#f5faff; color:#002366; }
+.container { max-width:430px; margin:auto; padding:20px; }
+h1,h2 { text-align:center; color:#0047ab; }
+p { text-align:center; font-size:14px; }
+.hero { background:#e6f0ff; padding:15px; border-radius:12px; margin-bottom:20px; opacity:0; animation:fadeInUp 0.8s forwards; }
+.logo { width:80px; display:block; margin:auto; }
+.poster { width:100%; border-radius:12px; margin-top:10px; }
+.button { display:block; width:100%; text-align:center; background:#0047ab; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold; margin-top:10px; transition: transform 0.3s ease; }
+.button:hover { transform:scale(1.05); }
+.tshirt-card { background:white; border-radius:12px; box-shadow:0 4px 6px rgba(0,0,0,0.1); padding:15px; margin-bottom:20px; opacity:0; animation:fadeInUp 0.8s forwards; animation-delay:0.2s; }
+.tshirt-card img { width:100%; border-radius:8px; margin-bottom:10px; }
+.details { font-size:14px; color:#555; margin-bottom:10px; }
+label { display:block; margin:10px 0 5px; }
+input, select { width:100%; padding:10px; margin-bottom:10px; border-radius:8px; border:1px solid #ccc; }
+input[type="submit"] { background-color:#0047ab; color:white; border:none; cursor:pointer; font-size:16px; transition: transform 0.3s ease; }
+input[type="submit"]:hover { transform:scale(1.05); }
+@keyframes fadeInUp { to { opacity:1; transform:translateY(0); } from { opacity:0; transform:translateY(20px); } }
