@@ -1,0 +1,52 @@
+/* GENERAL RESET */
+* { margin:0; padding:0; box-sizing:border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial; }
+
+/* BODY */
+body { background:#f7fbff; color:#0b1a2b; line-height:1.6; }
+
+/* HEADER */
+header.hero {
+    text-align:center;
+    padding:40px 20px;
+    background:#e6f0ff;
+}
+header.hero .logo {
+    width:80px;
+    margin-bottom:15px;
+}
+header.hero h1 { color:#0A84FF; font-size:2.2rem; margin-bottom:10px; }
+header.hero p { color:#6b7280; font-size:1rem; margin-bottom:10px; }
+header.hero .badge { display:inline-block; background:#0A84FF; color:#fff; padding:8px 16px; border-radius:999px; font-weight:600; font-size:0.9rem; }
+
+/* ORDER FORM */
+.order-form { max-width:900px; margin:30px auto; padding:0 15px; text-align:center; }
+.order-form h2 { color:#0A84FF; margin-bottom:20px; }
+.form-embed { width:100%; height:700px; border-radius:12px; border:1px solid rgba(10,132,255,0.2); }
+
+/* PREVIEW IMAGES */
+.preview { max-width:1000px; margin:40px auto; padding:0 15px; text-align:center; }
+.preview h2 { color:#0A84FF; margin-bottom:20px; font-size:1.5rem; }
+.shirt-gallery { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+.shirt-preview { width:220px; border-radius:12px; border:1px solid rgba(10,132,255,0.2); object-fit:cover; }
+
+/* FOOTER */
+.footer {
+    text-align:center;
+    font-size:14px;
+    color:#6b7280;
+    padding:20px;
+    background:#f0f6ff;
+}
+.footer a { color:#0A84FF; text-decoration:none; margin:0 5px; }
+
+/* RESPONSIVE */
+@media (max-width:768px) {
+    header.hero h1 { font-size:1.8rem; }
+    .shirt-preview { width:45%; }
+}
+@media (max-width:480px) {
+    header.hero h1 { font-size:1.5rem; }
+    header.hero p { font-size:0.9rem; }
+    .shirt-preview { width:90%; }
+    .form-embed { height:600px; }
+}
